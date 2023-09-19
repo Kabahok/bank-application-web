@@ -14,8 +14,10 @@ public class AuthenticationFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        servletRequest.getRequestDispatcher("/WEB-INF/view/login.jsp")
-                .forward(servletRequest, servletResponse);
+
+//      Тут будет реализация, если пользователь заходит повторно, то его сразу перекидывает в лк
+
+        filterChain.doFilter(servletRequest, servletResponse);
     }
 
     @Override

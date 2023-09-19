@@ -7,6 +7,6 @@
     <title>Добро пожаловать!</title>
 </head>
 <body>
-    <h1>Login</h1>
+    <h1>Registration</h1>
 </body>
 </html>
