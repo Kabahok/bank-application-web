@@ -8,12 +8,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/logout")
+@WebServlet("/login")
 public class LogoutServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/view/logout.jsp")
+        req.getRequestDispatcher("/WEB-INF/view/login.jsp")
                 .forward(req, res);
     }
 

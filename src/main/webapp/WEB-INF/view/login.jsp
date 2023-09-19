@@ -1,3 +1,4 @@
+<!-- user.jsp -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +6,5 @@
 </head>
 <body>
     <h1>Welcome, User!</h1>
-    <a href="http://localhost:8080/bank/logout"> Click me </a>
 </body>
 </html>
